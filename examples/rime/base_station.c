@@ -195,13 +195,24 @@ broadcast_recv(struct broadcast_conn *c, const rimeaddr_t *from)
   n->last_seqno = m->seqno;
 
   /* Print out a message. */
-  printf("broadcast message received from %d.%d with seqno %d, RSSI %u, LQI %u, avg seqno gap %d.%02d\n",
+  // hacky way to convert unsigned to signed
+  uint16_t rssi_unsigned = packetbuf_attr(PACKETBUF_ATTR_RSSI);
+  int rssi_signed = 0;
+  if (rssi_unsigned > 32767)
+    rssi_signed = rssi_unsigned - 65536;
+  else
+    rssi_signed = rssi_unsigned;
+  printf("RSSI, %d\n",rssi_signed);
+  /*
+  printf("broadcast message received from %d.%d with seqno %d, RSSI %d, LQI %u, avg seqno gap %d.%02d\n",
          from->u8[0], from->u8[1],
          m->seqno,
-         packetbuf_attr(PACKETBUF_ATTR_RSSI),
+         rssi_signed,
          packetbuf_attr(PACKETBUF_ATTR_LINK_QUALITY),
          (int)(n->avg_seqno_gap / SEQNO_EWMA_UNITY),
          (int)(((100UL * n->avg_seqno_gap) / SEQNO_EWMA_UNITY) % 100));
+  */
+
 }
 /* This is where we define what function to be called when a broadcast
    is received. We pass a pointer to this structure in the
@@ -226,11 +237,15 @@ recv_uc(struct unicast_conn *c, const rimeaddr_t *from)
      print out a message and return a UNICAST_TYPE_PONG. */
   
   //if(msg->type == 0) {
+  /*
     printf("unicast received from %d.%d: count = %d\n",
            from->u8[0], from->u8[1], msg->count);
     prrCounter++;
     printf("prrCounter = %d\ndropped = %d\n",prrCounter,msg->count - prrCounter);
+  */
 
+    prrCounter++;
+    printf("prrCounter, %d\npacket#, %d\n",prrCounter,msg->count);
     //msg->type = UNICAST_TYPE_PONG;
     //packetbuf_copyfrom(msg, sizeof(struct unicast_message));
 
@@ -260,7 +275,7 @@ PROCESS_THREAD(broadcast_process, ev, data)
   while(1) {
 
     /* Send a broadcast every 16 - 32 seconds */
-    etimer_set(&et, CLOCK_SECOND * 2 + random_rand() % (CLOCK_SECOND * 2));
+    etimer_set(&et, CLOCK_SECOND * 16 + random_rand() % (CLOCK_SECOND * 1));
 
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&et));
 
@@ -290,7 +305,7 @@ PROCESS_THREAD(unicast_process, ev, data)
   while(1) {
     static struct etimer et;
   
-    etimer_set(&et, CLOCK_SECOND * 8 + random_rand() % (CLOCK_SECOND * 8));
+    etimer_set(&et, CLOCK_SECOND * 32 + random_rand() % (CLOCK_SECOND * 32));
     
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&et));
     

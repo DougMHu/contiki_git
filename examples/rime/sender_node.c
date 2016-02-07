@@ -57,6 +57,7 @@
 #include "lib/memb.h"
 #include "lib/random.h"
 #include "net/rime.h"
+#include "../../core/dev/cc2420.h"
 
 #include <stdio.h>
 
@@ -253,8 +254,8 @@ PROCESS_THREAD(broadcast_process, ev, data)
 
   while(1) {
 
-    /* Send a broadcast every 16 - 32 seconds */
-    etimer_set(&et, CLOCK_SECOND * 16 + random_rand() % (CLOCK_SECOND * 16));
+    /* Send a broadcast every 2 seconds */
+    etimer_set(&et, CLOCK_SECOND * 15 + random_rand() % (CLOCK_SECOND * 1)); //
 
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&et));
 
@@ -279,15 +280,15 @@ PROCESS_THREAD(unicast_process, ev, data)
   struct unicast_message msg;
   static uint8_t count = 0;
   printf("new thread...\n");
-
-  while(1) {
+  printf("transmitting power = %d\n", cc2420_get_txpower());
+  while(count<200) {
     static struct etimer et;
     
     struct neighbor *n;
     int randneighbor, i;
     //char str[20];
     
-    etimer_set(&et, CLOCK_SECOND * 8 + random_rand() % (CLOCK_SECOND * 8));
+    etimer_set(&et, CLOCK_SECOND * 1 + random_rand() % (CLOCK_SECOND * 2)); //
     
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&et));
 

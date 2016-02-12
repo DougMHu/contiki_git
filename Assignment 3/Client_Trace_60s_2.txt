@@ -1,0 +1,7 @@
+student@course-vm:~ $ nc testbed.usc.edu 10010
+DATA send to 1 'Aloha 19'
+DATA send to 1 'Aloha 20'
+DATA send to 1 'Aloha 21'
+DATA send to 1 'Aloha 22'
+DATA send to 1 'Aloha 23'
+DATA send to 1 'Aloha 24'

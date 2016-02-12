@@ -1,0 +1,243 @@
+student@course-vm:~ $ nc testbed.usc.edu 10001
+DATA recv 'Aloha 10 from the client' from 185
+DATA recv 'Aloha 11 from the client' from 155
+DATA recv 'Aloha 1 from the client' from 0
+DATA recv 'Aloha 11 from the client' from 88
+DATA recv 'Aloha 20 from the client' from 188
+DATA recv 'Aloha 11 from the client' from 144
+time elapsed: 10
+packets recvd: 6
+DATA recv 'Aloha 10 from the client' from 158
+DATA recv 'Aloha 11 from the client' from 250
+DATA recv 'Aloha 10 from the client' from 17
+DATA recv 'Aloha 11 from the client' from 185
+DATA recv 'Aloha 12 from the client' from 155
+DATA recv 'Aloha 2 from the client' from 0
+time elapsed: 20
+packets recvd: 12
+DATA recv 'Aloha 12 from the client' from 88
+DATA recv 'Aloha 21 from the client' from 188
+DATA recv 'Aloha 12 from the client' from 144
+DATA recv 'Aloha 11 from the client' from 158
+DATA recv 'Aloha 12 from the client' from 250
+DATA recv 'Aloha 11 from the client' from 17
+time elapsed: 30
+packets recvd: 18
+DATA recv 'Aloha 12 from the client' from 185
+DATA recv 'Aloha 13 from the client' from 155
+DATA recv 'Aloha 3 from the client' from 0
+DATA recv 'Aloha 13 from the client' from 88
+DATA recv 'Aloha 22 from the client' from 188
+DATA recv 'Aloha 13 from the client' from 144
+time elapsed: 40
+packets recvd: 24
+DATA recv 'Aloha 12 from the client' from 158
+DATA recv 'Aloha 13 from the client' from 250
+DATA recv 'Aloha 12 from the client' from 17
+DATA recv 'Aloha 13 from the client' from 185
+DATA recv 'Aloha 14 from the client' from 155
+DATA recv 'Aloha 4 from the client' from 0
+time elapsed: 50
+packets recvd: 30
+DATA recv 'Aloha 14 from the client' from 88
+DATA recv 'Aloha 23 from the client' from 188
+DATA recv 'Aloha 14 from the client' from 144
+DATA recv 'Aloha 13 from the client' from 158
+DATA recv 'Aloha 14 from the client' from 250
+DATA recv 'Aloha 13 from the client' from 17
+time elapsed: 60
+packets recvd: 36
+DATA recv 'Aloha 14 from the client' from 185
+DATA recv 'Aloha 15 from the client' from 155
+DATA recv 'Aloha 5 from the client' from 0
+DATA recv 'Aloha 15 from the client' from 88
+DATA recv 'Aloha 24 from the client' from 188
+DATA recv 'Aloha 15 from the client' from 144
+time elapsed: 70
+packets recvd: 42
+DATA recv 'Aloha 14 from the client' from 158
+DATA recv 'Aloha 15 from the client' from 250
+DATA recv 'Aloha 14 from the client' from 17
+DATA recv 'Aloha 15 from the client' from 185
+DATA recv 'Aloha 16 from the client' from 155
+DATA recv 'Aloha 6 from the client' from 0
+time elapsed: 80
+packets recvd: 48
+DATA recv 'Aloha 16 from the client' from 88
+DATA recv 'Aloha 25 from the client' from 188
+DATA recv 'Aloha 16 from the client' from 144
+DATA recv 'Aloha 15 from the client' from 158
+DATA recv 'Aloha 16 from the client' from 250
+DATA recv 'Aloha 15 from the client' from 17
+time elapsed: 90
+packets recvd: 54
+DATA recv 'Aloha 16 from the client' from 185
+DATA recv 'Aloha 17 from the client' from 155
+DATA recv 'Aloha 7 from the client' from 0
+DATA recv 'Aloha 17 from the client' from 88
+DATA recv 'Aloha 26 from the client' from 188
+DATA recv 'Aloha 17 from the client' from 144
+time elapsed: 100
+packets recvd: 60
+DATA recv 'Aloha 16 from the client' from 158
+DATA recv 'Aloha 17 from the client' from 250
+DATA recv 'Aloha 16 from the client' from 17
+DATA recv 'Aloha 17 from the client' from 185
+DATA recv 'Aloha 18 from the client' from 155
+DATA recv 'Aloha 8 from the client' from 0
+time elapsed: 110
+packets recvd: 66
+DATA recv 'Aloha 18 from the client' from 88
+DATA recv 'Aloha 27 from the client' from 188
+DATA recv 'Aloha 18 from the client' from 144
+DATA recv 'Aloha 17 from the client' from 158
+DATA recv 'Aloha 18 from the client' from 250
+DATA recv 'Aloha 17 from the client' from 17
+time elapsed: 120
+packets recvd: 72
+DATA recv 'Aloha 18 from the client' from 185
+DATA recv 'Aloha 19 from the client' from 155
+DATA recv 'Aloha 9 from the client' from 0
+DATA recv 'Aloha 19 from the client' from 88
+DATA recv 'Aloha 28 from the client' from 188
+DATA recv 'Aloha 19 from the client' from 144
+time elapsed: 130
+packets recvd: 78
+DATA recv 'Aloha 18 from the client' from 158
+DATA recv 'Aloha 19 from the client' from 250
+DATA recv 'Aloha 18 from the client' from 17
+DATA recv 'Aloha 19 from the client' from 185
+DATA recv 'Aloha 20 from the client' from 155
+DATA recv 'Aloha 10 from the client' from 0
+time elapsed: 140
+packets recvd: 84
+DATA recv 'Aloha 20 from the client' from 88
+DATA recv 'Aloha 29 from the client' from 188
+DATA recv 'Aloha 20 from the client' from 144
+DATA recv 'Aloha 19 from the client' from 158
+DATA recv 'Aloha 20 from the client' from 250
+DATA recv 'Aloha 19 from the client' from 17
+time elapsed: 150
+packets recvd: 90
+DATA recv 'Aloha 20 from the client' from 185
+DATA recv 'Aloha 21 from the client' from 155
+DATA recv 'Aloha 11 from the client' from 0
+DATA recv 'Aloha 21 from the client' from 88
+DATA recv 'Aloha 30 from the client' from 188
+DATA recv 'Aloha 21 from the client' from 144
+time elapsed: 160
+packets recvd: 96
+DATA recv 'Aloha 20 from the client' from 158
+DATA recv 'Aloha 21 from the client' from 250
+DATA recv 'Aloha 20 from the client' from 17
+DATA recv 'Aloha 21 from the client' from 185
+DATA recv 'Aloha 22 from the client' from 155
+DATA recv 'Aloha 12 from the client' from 0
+time elapsed: 170
+packets recvd: 102
+DATA recv 'Aloha 22 from the client' from 88
+DATA recv 'Aloha 31 from the client' from 188
+DATA recv 'Aloha 22 from the client' from 144
+DATA recv 'Aloha 21 from the client' from 158
+DATA recv 'Aloha 22 from the client' from 250
+DATA recv 'Aloha 21 from the client' from 17
+time elapsed: 180
+packets recvd: 108
+DATA recv 'Aloha 22 from the client' from 185
+DATA recv 'Aloha 23 from the client' from 155
+DATA recv 'Aloha 13 from the client' from 0
+DATA recv 'Aloha 23 from the client' from 88
+DATA recv 'Aloha 32 from the client' from 188
+DATA recv 'Aloha 23 from the client' from 144
+time elapsed: 190
+packets recvd: 114
+DATA recv 'Aloha 22 from the client' from 158
+DATA recv 'Aloha 23 from the client' from 250
+DATA recv 'Aloha 22 from the client' from 17
+DATA recv 'Aloha 23 from the client' from 185
+DATA recv 'Aloha 24 from the client' from 155
+DATA recv 'Aloha 14 from the client' from 0
+time elapsed: 200
+packets recvd: 120
+DATA recv 'Aloha 24 from the client' from 88
+DATA recv 'Aloha 33 from the client' from 188
+DATA recv 'Aloha 24 from the client' from 144
+DATA recv 'Aloha 23 from the client' from 158
+DATA recv 'Aloha 24 from the client' from 250
+DATA recv 'Aloha 23 from the client' from 17
+time elapsed: 210
+packets recvd: 126
+DATA recv 'Aloha 24 from the client' from 185
+DATA recv 'Aloha 25 from the client' from 155
+DATA recv 'Aloha 15 from the client' from 0
+DATA recv 'Aloha 25 from the client' from 88
+DATA recv 'Aloha 34 from the client' from 188
+DATA recv 'Aloha 25 from the client' from 144
+time elapsed: 220
+packets recvd: 132
+DATA recv 'Aloha 24 from the client' from 158
+DATA recv 'Aloha 25 from the client' from 250
+DATA recv 'Aloha 24 from the client' from 17
+DATA recv 'Aloha 25 from the client' from 185
+DATA recv 'Aloha 26 from the client' from 155
+DATA recv 'Aloha 16 from the client' from 0
+time elapsed: 230
+packets recvd: 138
+DATA recv 'Aloha 26 from the client' from 88
+DATA recv 'Aloha 35 from the client' from 188
+DATA recv 'Aloha 26 from the client' from 144
+DATA recv 'Aloha 25 from the client' from 158
+DATA recv 'Aloha 26 from the client' from 250
+DATA recv 'Aloha 25 from the client' from 17
+time elapsed: 240
+packets recvd: 144
+DATA recv 'Aloha 26 from the client' from 185
+DATA recv 'Aloha 27 from the client' from 155
+DATA recv 'Aloha 17 from the client' from 0
+DATA recv 'Aloha 27 from the client' from 88
+DATA recv 'Aloha 36 from the client' from 188
+DATA recv 'Aloha 27 from the client' from 144
+time elapsed: 250
+packets recvd: 150
+DATA recv 'Aloha 26 from the client' from 158
+DATA recv 'Aloha 27 from the client' from 250
+DATA recv 'Aloha 26 from the client' from 17
+DATA recv 'Aloha 27 from the client' from 185
+DATA recv 'Aloha 28 from the client' from 155
+DATA recv 'Aloha 18 from the client' from 0
+time elapsed: 260
+packets recvd: 156
+DATA recv 'Aloha 28 from the client' from 88
+DATA recv 'Aloha 37 from the client' from 188
+DATA recv 'Aloha 28 from the client' from 144
+DATA recv 'Aloha 27 from the client' from 158
+DATA recv 'Aloha 28 from the client' from 250
+DATA recv 'Aloha 27 from the client' from 17
+time elapsed: 270
+packets recvd: 162
+DATA recv 'Aloha 28 from the client' from 185
+DATA recv 'Aloha 29 from the client' from 155
+DATA recv 'Aloha 19 from the client' from 0
+DATA recv 'Aloha 29 from the client' from 88
+DATA recv 'Aloha 38 from the client' from 188
+DATA recv 'Aloha 29 from the client' from 144
+time elapsed: 280
+packets recvd: 168
+DATA recv 'Aloha 28 from the client' from 158
+DATA recv 'Aloha 29 from the client' from 250
+DATA recv 'Aloha 28 from the client' from 17
+DATA recv 'Aloha 29 from the client' from 185
+DATA recv 'Aloha 30 from the client' from 155
+DATA recv 'Aloha 20 from the client' from 0
+time elapsed: 290
+packets recvd: 174
+DATA recv 'Aloha 30 from the client' from 88
+DATA recv 'Aloha 39 from the client' from 188
+DATA recv 'Aloha 30 from the client' from 144
+DATA recv 'Aloha 29 from the client' from 158
+DATA recv 'Aloha 30 from the client' from 250
+DATA recv 'Aloha 29 from the client' from 17
+time elapsed: 300
+packets recvd: 180
+DATA recv 'Aloha 30 from the client' from 185
+
